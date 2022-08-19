@@ -1044,7 +1044,7 @@ bot.on("message", async (ctx) => {
 
     //Sharing public link for saved files
     ctx.reply(
-      `https://t.me/${process.env.BOTUSERNAME}?start=${fileDetails.shortid}`
+      `https://telegram.me/${process.env.BOTUSERNAME}?start=${fileDetails.shortid}`
     );
   }
 });
